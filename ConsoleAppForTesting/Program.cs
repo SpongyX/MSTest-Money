@@ -17,12 +17,12 @@
     {
         if(amount < 0)
         {
-            throw new ArgumentOutOfRangeException("amount");
+            throw new ArgumentOutOfRangeException("Amount");
 
         }
         if(amount > mybalance)
         {
-            throw new ArgumentOutOfRangeException("amount");
+            throw new ArgumentOutOfRangeException("Amount");
         }
         mybalance += amount;
     }
